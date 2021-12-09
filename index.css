@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+  background-color: white;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.img1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 3px;
+  padding-left: 35px;
+}
+.background1 {
+  padding-bottom: 20px;
+  height: 87vh;
+  background: #f2f9ff;
+  border: 3px solid #000000;
+  box-shadow: inset -8px -9px 4px #ffffff,
+    inset 7px 8px 13px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+}
+.img2 {
+  text-align: center;
+  margin-top: 8vh;
+}
+.img3 {
+  text-align: center;
+  padding-top: 8vh;
+}
+.para {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.185em;
+
+  color: #000000;
+}
+.para1-div {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  text-align: center;
+}
+
+.log-in {
+  background-color: #ff8c99;
+  width: 60vw;
+  height: 41.13px;
+  border-radius: 185px;
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 15px;
+  border: none;
+}
+
+.footer-section {
+  padding-bottom: 8.5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.button-facebook {
+  width: 40vw;
+  height: 29.11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2.5vw;
+  max-width: 170px;
+  background: #1877f2;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.14),
+    0px 1.07407px 5px rgba(0, 0, 0, 0.29);
+  border-radius: 5.37036px;
+}
+.button-google {
+  width: 40vw;
+  height: 29.11px;
+  background: #ffffff;
+  border-radius: 5.37036px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 170px;
+}
+
+.heart {
+  margin-left: 12px;
+}
+
+.signInGoogle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.7407px;
+  line-height: 13px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.54);
+}
+.signInFb {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.7407px;
+  line-height: 13px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin: 0px 8.05554px;
+}
